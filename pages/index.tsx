@@ -3,7 +3,6 @@ import clientPromise from "../lib/mongodb";
 import { GetServerSideProps } from 'next';
 import Link from "next/link";
 
-import '../bulma/css/bulma.min.css'; // Import Bulma CSS
 
 interface Anime {
     _id: string;
